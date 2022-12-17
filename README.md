@@ -1,6 +1,5 @@
 # Research_Project
-## Applying ML techniques in Engineering Education
-## Cheating detection in Semester exams
+## Applying ML techniques in Engineering Education - - Cheating detection in Semester exams
 
 ## Abstract
 
