@@ -1,8 +1,8 @@
 # Research_Project
-## Applying ML techniques in Engineering Education
-Cheating detection in Semester exams
+# # Applying ML techniques in Engineering Education
+# #Cheating detection in Semester exams
 
-###Abstract
+##Abstract
 
 The spread of COVID-19 poses a threat to humanity because it has caused numerous international activities to close, especially educational ones, to be suspended. Education institutions have been compelled to transition to e-learning in order to stop the virus's spread.
 E-learning is the name given to the formal educational system that uses electronic resources. Despite the difficulties and data that suggests that students are less likely to benefit from this kind of education, e-learning is the best option currently available to ensure that diseases do not spread since it guarantees geographical distance.
@@ -10,13 +10,13 @@ However, there are a number of problems to e-learning, the most significant of w
 In this paper, our objective is to spot instances of exam cheating using post-exam scoring analysis to identify anomalous results. Our method's new application of machine learning techniques to detect the exam's abnormal grades is what makes it significant.
 So, in order to enhance online education, we have come up with some solutions using machine learning algorithms.
 
-##Introduction
+# # Introduction
 
 Academic dishonesty is pervasive and by no means a recent occurrence during online final exams in higher education. Technology, according to Carnevale [18], is "giving learners new and faster means to cheat" (para.1). In accordance with the results of a study conducted by King, Guyette Jr., and Piotrowski [19] on business students' attitudes and behaviours towards trying to cheat on an online exam, 73.6% of the respondents were of the view that doing so was simple.
 Exam irregularities can be found by evaluating students' scores on the continuous assessment with their scores on the final exam. An average student's sudden and surprisingly high final exam grades could cause a few questions, warning lights, and be viewed as unusual. But things are not always as simple as they appear to be. Any fault would be less obvious if the final exam is comparatively easy and the majority of students obtain high grades. Additionally, it's critical to remember that the order of the scores matters and that the course assessments are consecutive.
 Quizzes, midterm exams, and final exams are used as the algorithm's inputs, and its output is a list of labels, one for each student, indicating whether or not they have cheated.
 
-###PROPOSED ALGORITHM-
+# # #PROPOSED ALGORITHM-
 
 •	using a network to estimate the final exam score based on the results of the preceding exams. Scores on quizzes, midterm exams, projects, and other pre-final exam examinations are some of the input variables in our model. The final exam's score is the model's output. The model is trained to reduce the predictions' mean squared error.
 
@@ -28,7 +28,7 @@ b)	 The final exam score is the output (y).
        2.  Calculate the error between the scores predicted by the trained model and the  
             actual exam scores. Apply a detection method on the set of errors to 
             determine the abnormal scores.
-##Methodology
+# #Methodology
 
 
 •	The algorithm's inputs are a class's series of grades from quizzes, midterms, and   finals; its output is a list of labels, one for each student, indicating whether or not that student cheated.
@@ -44,7 +44,7 @@ b)	 The final exam score is the output (y).
 
 
 
-###References 
+## #References 
 
 1.	Kamalov F, Sulieman H, Santandreu Calonge D (2021) Machine learning based approach to exam cheating detection. PLoS ONE 16(8): e0254340. https://doi.org/10.1371/journal.pone.0254340
 
